@@ -1,0 +1,122 @@
+@media(max-width:991px){
+    .navbar-nav .nav-item{
+        margin: auto;
+    }
+    .navbar-nav {
+        margin-top: 20px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    header .hidden{
+        display: none;
+    }
+    header .hg {
+        min-height: 88vh;
+    }
+    .counter_section .text {
+        width: 150px;
+        height: 150px;
+    }
+    .counter_section .text h1 {
+        font-size: 26px;
+    }
+    .pricing_section .pricing-box {
+        margin: 0 5px;
+    }
+    .navbar-light .navbar-brand {
+        width: 25%;
+    }
+    .navbar-light .navbar-toggler {
+        margin-top: 16px;
+    }
+    .contact-right {
+        padding: 20px 10px;
+    }
+    
+}
+@media(max-width:767px){
+    .projects_section .mg{
+        margin-bottom: 24px;
+    }
+    .counter_section .text {
+        width: 180px;
+        height: 180px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .subscription_section form {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .pricing_section .heading{
+        padding-bottom: 0 !important;
+    }
+    .pricing_section .center {
+        margin-top: 50px !important;
+    }
+    .blog_section .blog-box {
+        margin-top: 30px;
+    }
+    .contact-right {
+        padding: 30px 50px;
+    }
+    .subscription_section form input {
+        width: 66%;
+    }
+
+}
+@media(max-width:600px){
+    .carousel-box {
+        padding: 0 30px;
+    }
+    .carousel-box .icon {
+        width: 15%;
+        height: 110px;
+        margin: auto;
+    }
+    .carousel-box .icon {
+        width: 20%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: inherit;
+    }
+}
+@media(max-width:425px){
+    .counter_section .text {
+        width: 140px;
+        height: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .counter_section .text {
+        width: 140px;
+        height: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:375px){
+    .contact-right {
+        padding: 0 !important;
+        padding: 25px 10px;
+    }
+    header .hg h1 {
+        text-transform: uppercase;
+        color: #2F2F2F;
+        font-size: 60px;
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    header .hg p {
+        color: #2F2F2F;
+        margin: 0;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    header .hg .btn-view {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}
